@@ -1,11 +1,11 @@
 export default {
-	title: "Eleventy Base Blog v9",
-	url: "https://example.com/",
+	title: "Viola da Gamba Society of Philadelphia",
+	url: "https://vdgsphilly.org/",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "The Viola da Gamba Society of Philadelphia.",
 	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
+		name: "Eric Tillberg",
+		email: "eric.tillberg@gmail.com",
 		url: "https://example.com/about-me/"
 	}
 }
