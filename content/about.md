@@ -6,4 +6,4 @@ const eleventyNavigation = {
 ---
 # About
 
-The Viola da Gamba Society of Philadelphia puts on workshops, concerts, and consorts featuring the viola da gamba, in all sizes and in all its splendor. Join us!
+Viola da Gamba Philly puts on workshops, concerts, and consorts featuring the viola da gamba, in all sizes and in all its splendor. Join us!

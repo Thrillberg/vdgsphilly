@@ -1,11 +1,10 @@
 export default {
-	title: "Viola da Gamba Society of Philadelphia",
-	url: "https://vdgsphilly.org/",
+	title: "Viola da Gamba Philly",
+	url: "https://violadagambaphilly.org/",
 	language: "en",
-	description: "The Viola da Gamba Society of Philadelphia.",
+	description: "Viola da Gamba Philly - a Chapter of VdGSA",
 	author: {
 		name: "Eric Tillberg",
-		email: "eric.tillberg@gmail.com",
-		url: "https://example.com/about-me/"
+		email: "eric.tillberg@gmail.com"
 	}
 }

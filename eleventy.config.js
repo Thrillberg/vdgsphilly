@@ -70,9 +70,9 @@ export default async function(eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "Viola da Gamba Society of Philadelphia",
-			subtitle: "Viola da Gamba Society of Philadelphia",
-			base: "https://vdgsphilly.org/",
+			title: "Viola da Gamba Philly",
+			subtitle: "Viola da Gamba Philly - a Chapter of VdGSA",
+			base: "https://violadagambaphilly.org/",
 			author: {
 				name: "Eric Tillberg"
 			}
