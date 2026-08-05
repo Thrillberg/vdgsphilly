@@ -1,0 +1,17 @@
+---
+pagination:
+  data: collections["workshops"]
+  size: 1
+  alias: workshop
+permalink: /workshops/gamba-col-legno/thank-you/
+eleventyExcludeFromCollections: true
+---
+
+<h1>Thank you for registering for {{ workshop.data.title }}</h1>
+
+<p>{{ workshop.data.description }}</p>
+
+<p>
+  <strong>Date:</strong>
+  {{ workshop.data.date | readableDate }}
+</p>

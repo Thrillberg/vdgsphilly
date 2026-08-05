@@ -1,0 +1,35 @@
+---
+pagination:
+  data: collections["workshops"]
+  size: 1
+  alias: workshop
+permalink: "/registration/{{ workshop.fileSlug }}/"
+eleventyExcludeFromCollections: true
+---
+
+<h1>Register for {{ workshop.data.title }}</h1>
+
+<p>{{ workshop.data.description }}</p>
+
+<p>
+  <strong>Date:</strong>
+  {{ workshop.data.date | readableDate }}
+</p>
+
+<h2>Registration Options</h2>
+
+<div class="registration-option">
+  <h3>Student</h3>
+  <p>${{ workshop.data.registration.student.price }}</p>
+  <a href="{{ workshop.data.registration.student.stripePaymentLink }}">
+    Register as Student
+  </a>
+</div>
+
+<div class="registration-option">
+  <h3>Regular</h3>
+  <p>${{ workshop.data.registration.regular.price }}</p>
+  <a href="{{ workshop.data.registration.regular.stripePaymentLink }}">
+    Register
+  </a>
+</div>

@@ -296,3 +296,21 @@ header {
 	margin-right: 1em;
 }
 
+.registration-button {
+	display: block;
+  background-color: var(--background-color);
+  padding: 1rem;
+	margin: 0.5rem 0;
+  border: 1px solid var(--color-gray-90);
+	border-radius: 0.5rem;
+	width: fit-content;
+	text-decoration: none;
+}
+.registration-button:hover {
+	background-color: var(--color-gray-20);
+}
+a[href]:hover.registration-button,
+a[href]:active.registration-button {
+	color: var(--color-gray-90);
+}
+
