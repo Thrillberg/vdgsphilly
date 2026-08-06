@@ -11,13 +11,6 @@ registration:
     stripePaymentLink: https://buy.stripe.com/test_aFa7sKezb1X9dM11kqdMI00
 tags: workshops
 ---
-
-<a
-	class="registration-button"
-	href="/registration/{{ page.fileSlug }}/"><b>
-	Sign up</b>
-</a>
-
 Who knew so many famous composers from Palestrina to Pinocchio to Poulenc wrote pieces for viola da gamba consort exclusively using col legno? Improvise your own grunts and groans while we plink and plunk away on our strings with our bows. No horsehair needed!
 
 <img src="./col_legno.jpeg" alt="A gamba bow">
@@ -34,5 +27,9 @@ October 1, 2026
 A bow.
 
 ### Purchase tickets
-Tickets are $500 per player, to be collected by the troll who lives under the bridge.
+<a
+	class="button"
+	href="/registration/{{ page.fileSlug }}/"><b>
+	Register for this event</b>
+</a>
 

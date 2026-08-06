@@ -16,20 +16,14 @@ eleventyExcludeFromCollections: true
   {{ workshop.data.date | readableDate }}
 </p>
 
-<h2>Registration Options</h2>
-
-<div class="registration-option">
-  <h3>Student</h3>
-  <p>${{ workshop.data.registration.student.price }}</p>
-  <a href="{{ workshop.data.registration.student.stripePaymentLink }}">
-    Register as Student
+<div class="buttons">
+  <a href="{{ workshop.data.registration.student.stripePaymentLink }}" class="button">
+    <h3>Student</h3>
+    ${{ workshop.data.registration.student.price }}
   </a>
-</div>
 
-<div class="registration-option">
-  <h3>Regular</h3>
-  <p>${{ workshop.data.registration.regular.price }}</p>
-  <a href="{{ workshop.data.registration.regular.stripePaymentLink }}">
-    Register
+  <a href="{{ workshop.data.registration.regular.stripePaymentLink }}" class="button">
+    <h3>Regular</h3>
+    ${{ workshop.data.registration.regular.price }}
   </a>
 </div>
