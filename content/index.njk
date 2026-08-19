@@ -4,12 +4,31 @@ const eleventyNavigation = {
 	order: 1
 };
 ---
-<img src="./vdgsphilly_logo.png" alt="VdGS Philly Logo">
-{# List every content page in the project #}
-{#
-<ul>
-	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-	{%- endfor %}
-</ul>
-#}
+<div class="flex">
+  <img src="./vdgsphilly_logo.png" alt="VdGS Philly Logo">
+  <div>
+    <h1>Upcoming Events</h1>
+      <div>
+      <h3>Workshops</h3>
+      <ul>
+      {%- for item in collections.workshops -%}
+        <li>
+          <p><b>{{ item.data.date.toLocaleString('en-US', { dateStyle: 'short', timeStyle: 'short' }) }}</b></p>
+          <a href={{ item.url }}>{{ item.data.title }}</p>
+        </li>
+      {%- endfor -%}
+      </ul>
+    </div>
+    <div>
+      <h3>Concerts</h3>
+      <ul>
+      {%- for item in collections.concerts -%}
+        <li>
+          <p><b>{{ item.data.date.toLocaleString('en-US', { dateStyle: 'short', timeStyle: 'short' }) }}</b></p>
+          <a href={{ item.url }}>{{ item.data.title }}</p>
+        </li>
+      {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</div>

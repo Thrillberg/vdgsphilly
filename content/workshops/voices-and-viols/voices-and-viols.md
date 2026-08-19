@@ -1,6 +1,6 @@
 ---
-title: Gamba col legno
-description: We'll spend an afternoon exploring the col legno repertoire.
+title: Voices and Viols
+description: A day of voices and viols.
 date: 2026-10-01
 registration:
   student:
@@ -11,9 +11,8 @@ registration:
     stripePaymentLink: https://buy.stripe.com/test_aFa7sKezb1X9dM11kqdMI00
 tags: workshops
 ---
-Who knew so many famous composers from Palestrina to Pinocchio to Poulenc wrote pieces for viola da gamba consort exclusively using col legno? Improvise your own grunts and groans while we plink and plunk away on our strings with our bows. No horsehair needed!
+Voice and Viols description!
 
-<img src="./col_legno.jpeg" alt="A gamba bow">
 
 ## Details
 
@@ -24,7 +23,7 @@ On a boat in the middle of the Schuylkill.
 October 1, 2026
 
 ### What to bring
-A bow.
+A viol or a voice!
 
 ### Purchase tickets
 <a

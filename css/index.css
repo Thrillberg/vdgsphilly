@@ -59,6 +59,9 @@ html {
 body {
 	max-width: 40em;
 }
+picture {
+	width: 50%;
+}
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 .visually-hidden:not(:focus):not(:active) {
@@ -318,3 +321,10 @@ a[href]:active.button {
 	justify-content: space-around;
 }
 
+.flex {
+	display: flex;
+}
+
+ul {
+	list-style: none;
+}
