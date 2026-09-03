@@ -1,9 +1,3 @@
----js
-const eleventyNavigation = {
-	key: "Home",
-	order: 1
-};
----
 <div class="flex">
   <img src="./vdgsphilly_logo.png" alt="VdGS Philly Logo">
   <div>
@@ -13,7 +7,8 @@ const eleventyNavigation = {
       <ul>
       {%- for item in collections.workshops -%}
         <li>
-          <p><b>{{ item.data.date.toLocaleString('en-US', { dateStyle: 'short', timeStyle: 'short' }) }}</b></p>
+          <p><b>{{ item.data.date.toLocaleString('en-US', { dateStyle: 'long', timeZone: 'UTC' }) }}</b></p>
+          <p>{{ item.data.startTime }} - {{ item.data.endTime }}</p>
           <a href={{ item.url }}>{{ item.data.title }}</p>
         </li>
       {%- endfor -%}

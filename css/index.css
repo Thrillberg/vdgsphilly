@@ -99,7 +99,7 @@ p:last-child {
 	margin-bottom: 0;
 }
 p {
-	line-height: 1.5;
+	margin: 0;
 }
 
 li {
@@ -205,8 +205,8 @@ header {
 }
 .home-link {
 	flex-grow: 1;
-	font-size: 1em; /* 16px /16 */
-	font-weight: 700;
+	font-size: 1em;
+	font-weight: 500;
 }
 .home-link:link:not(:hover) {
 	text-decoration: none;
@@ -219,6 +219,7 @@ header {
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	align-items: baseline;
 }
 .nav-item {
 	display: inline-block;
@@ -248,7 +249,6 @@ header {
 	display: inline-block;
 	pointer-events: none;
 	content: "" counter(start-from, decimal-leading-zero) ". ";
-	line-height: 100%;
 	text-align: right;
 	margin-left: -1.5rem;
 }
@@ -301,18 +301,15 @@ header {
 
 .button {
   background-color: var(--background-color);
-  padding: 1rem;
-  border: 1px solid var(--color-gray-90);
-	border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: 0.1rem solid var(--color-gray-90);
+	border-radius: 0.75rem;
 	width: fit-content;
 	text-decoration: none;
 }
-.button:hover {
-	background-color: var(--color-gray-20);
-}
-a[href]:hover.button,
-a[href]:active.button {
-	color: var(--color-gray-90);
+
+p:has(.button) {
+	margin-top: 1rem;
 }
 
 .buttons {

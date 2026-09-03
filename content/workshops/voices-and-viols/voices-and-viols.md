@@ -1,7 +1,9 @@
 ---
 title: Voices and Viols
 description: A day of voices and viols.
-date: 2026-10-01
+date: 2027-03-15
+startTime: "9:30 AM"
+endTime: "4:00 PM"
 registration:
   student:
     price: 20
@@ -17,10 +19,10 @@ Voice and Viols description!
 ## Details
 
 ### Where
-On a boat in the middle of the Schuylkill.
+St. Martin-in-the-Fields, Philadelphia
 
 ### When
-October 1, 2026
+March 15, 2027
 
 ### What to bring
 A viol or a voice!
