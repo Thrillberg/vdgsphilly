@@ -325,3 +325,9 @@ p:has(.button) {
 ul {
 	list-style: none;
 }
+
+.dashed-bottom-border {
+	border-bottom: 1px dashed var(--color-gray-20);
+	padding: 1em;
+	margin-bottom: 1em;
+}

@@ -1,0 +1,12 @@
+---js
+const eleventyNavigation = {
+	key: "Play-Ins",
+	order: 2
+};
+---
+<h1>Play-Ins</h1>
+
+<p>Viola da Gamba Philly periodically hosts play-ins with community members.</p>
+
+{% set postslist = collections.play-ins %}
+{% include "postslist.njk" %}

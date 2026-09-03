@@ -1,9 +1,3 @@
----js
-const eleventyNavigation = {
-	key: "Join Us",
-	order: 3
-};
----
 # Join Us
 
 Membership to the Viola da Gamba Philly chapter of the VdGSA costs annual dues of $30.
