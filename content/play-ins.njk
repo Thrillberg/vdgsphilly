@@ -8,5 +8,8 @@ const eleventyNavigation = {
 
 <p>Viola da Gamba Philly periodically hosts play-ins with community members.</p>
 
-{% set postslist = collections.play-ins %}
+{% set postslist = collections.playIns %}
 {% include "postslist.njk" %}
+{% if not collections.playIns|length %}
+	<p><i>No play-ins currently scheduled.</i></p>
+{% endif %}

@@ -10,3 +10,6 @@ const eleventyNavigation = {
 
 {% set postslist = collections.workshops %}
 {% include "postslist.njk" %}
+{% if not collections.workshops|length %}
+	<p><i>No workshops currently scheduled.</i></p>
+{% endif %}

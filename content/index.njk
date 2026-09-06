@@ -2,29 +2,47 @@
   <img src="./vdgsphilly_logo.png" alt="VdGS Philly Logo">
   <div>
     <h1>Upcoming Events</h1>
+    {%- if collections.workshops|length %}
       <div>
-      <h3>Workshops</h3>
-      <ul>
-      {%- for item in collections.workshops -%}
-        <li>
-          <p><b>{{ item.data.date.toLocaleString('en-US', { dateStyle: 'long', timeZone: 'UTC' }) }}</b></p>
-          <p>{{ item.data.startTime }} - {{ item.data.endTime }}</p>
-          <a href={{ item.url }}>{{ item.data.title }}</p>
-        </li>
-      {%- endfor -%}
-      </ul>
-    </div>
-    <div>
-      <h3>Concerts</h3>
-      <ul>
-      {%- for item in collections.concerts -%}
-        <li>
-          <p><b>{{ item.data.date.toLocaleString('en-US', { dateStyle: 'short', timeStyle: 'short' }) }}</b></p>
-          <a href={{ item.url }}>{{ item.data.title }}</p>
-        </li>
-      {%- endfor -%}
-      </ul>
-    </div>
+        <h3>Workshops</h3>
+        <ul>
+          {%- for item in collections.workshops -%}
+            <li>
+              <p><b>{{ item.data.date.toLocaleString('en-US', { dateStyle: 'long', timeZone: 'UTC' }) }}</b></p>
+              <p>{{ item.data.startTime }} - {{ item.data.endTime }}</p>
+              <a href={{ item.url }}>{{ item.data.title }}</p>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    {%- endif -%}
+    {%- if collections.playIns|length %}
+      <div>
+        <h3>Play-Ins</h3>
+        <ul>
+          {%- for item in collections.playIns -%}
+            <li>
+              <p><b>{{ item.data.date.toLocaleString('en-US', { dateStyle: 'long', timeZone: 'UTC' }) }}</b></p>
+              <p>{{ item.data.startTime }} - {{ item.data.endTime }}</p>
+              <a href={{ item.url }}>{{ item.data.title }}</p>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    {%- endif -%}
+    {%- if collections.concerts|length %}
+      <div>
+        <h3>Concerts</h3>
+        <ul>
+        {%- for item in collections.concerts -%}
+          <li>
+            <p><b>{{ item.data.date.toLocaleString('en-US', { dateStyle: 'short', timeStyle: 'short' }) }}</b></p>
+            <a href={{ item.url }}>{{ item.data.title }}</p>
+          </li>
+        {%- endfor -%}
+        </ul>
+      </div>
+    {%- endif -%}
   </div>
 </div>
 <div>

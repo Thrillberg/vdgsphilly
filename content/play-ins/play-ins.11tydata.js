@@ -1,6 +1,6 @@
 export default {
 	tags: [
-		"play-ins"
+		"playIns"
 	],
 	"layout": "layouts/play-in.njk",
 };

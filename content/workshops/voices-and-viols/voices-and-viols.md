@@ -1,7 +1,7 @@
 ---
 title: Voices and Viols
 description: A day of voices and viols.
-date: 2027-03-15
+date: 2027-04-03T09:30:00Z
 startTime: "9:30 AM"
 endTime: "4:00 PM"
 registration:
@@ -20,9 +20,6 @@ Voice and Viols description!
 
 ### Where
 St. Martin-in-the-Fields, Philadelphia
-
-### When
-March 15, 2027
 
 ### What to bring
 A viol or a voice!
