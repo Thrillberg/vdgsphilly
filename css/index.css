@@ -294,7 +294,7 @@ header {
 }
 
 p:has(.button) {
-	margin-top: 1rem;
+	margin: 1rem 0;
 }
 
 .buttons {
