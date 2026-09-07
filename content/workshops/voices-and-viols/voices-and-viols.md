@@ -19,7 +19,7 @@ Voice and Viols description!
 ## Details
 
 ### Where
-St. Martin-in-the-Fields, Philadelphia
+Somewhere
 
 ### What to bring
 A viol or a voice!
