@@ -10,7 +10,7 @@
 	--color-gray-50: #C0C0C0;
 	--color-gray-90: #333;
 
-	--background-color: #fff;
+	--background-color: floralwhite;
 
 	--text-color: var(--color-gray-90);
 	--text-color-link: #082840;
@@ -311,8 +311,10 @@ ul {
 	list-style: none;
 }
 
-.dashed-bottom-border {
-	border-bottom: 1px dashed var(--color-gray-20);
+.highlight-section {
+	border: 2px solid var(--color-gray-20);
 	padding: 1em;
 	margin-bottom: 1em;
+	background: aliceblue;
+	border-radius: 1em;
 }
